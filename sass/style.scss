@@ -1,0 +1,25 @@
+@import "normalize.scss";
+
+@import "global/fonts.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+@import "scaffolding.scss";
+
+@import "owl.carousel/owl.carousel.scss";
+@import "owl.carousel/owl.theme.default.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/intro.scss";
+@import "blocks/calc.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/progress.scss";
+
+@import "blocks/stage.scss";
+
+@import "blocks/confid.scss";
+
+@import "blocks/popup-callback.scss";
+@import "blocks/popup-success.scss";
+@import "blocks/overlay.scss";
+@import "blocks/floating-menu.scss";

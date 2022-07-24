@@ -1,0 +1,67 @@
+.calc {
+  background-color: rgba(1, 118, 176, 0.7);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+  @media #{$max-mobile-width} {
+  }
+  @media #{$min-tablet-width} {
+    @include centers;
+    width: 600px;
+  }
+  @media #{$min-desktop-width} {
+    width: 720px;
+  }
+}
+.calc__title {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgba(1, 118, 176, 1);
+  @media #{$max-mobile-width} {
+    font-size: 2.1rem;
+    padding-top: 11px;
+    padding-bottom: 16px;
+  }
+  @media #{$min-tablet-width} {
+    font-size: 2.1rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @media #{$min-desktop-width} {
+    font-size: 3rem;
+    padding-top: 18px;
+    padding-bottom: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.calc__stages {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/bg--paper.jpg");
+  padding-left: 20px;
+  padding-right: 20px;
+  @media #{$max-mobile-width} {
+    margin-top: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  @media #{$min-tablet-width} {
+    margin-top: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  @media #{$min-desktop-width} {
+    margin-top: 18px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}

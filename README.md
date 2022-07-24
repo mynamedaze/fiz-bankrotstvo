@@ -1,1 +1,1 @@
-"# fiz-bankrotstvo" 
+"# vernistrahovku" 
